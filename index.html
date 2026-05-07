@@ -4,12 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        aside {
+            float: left;
+            width: 20%;
+            padding: 1rem;
+            background-color: #f4f4f4;
+            height: 100vh;
+        }
+        main {
+            margin-left: 20%;
+            padding: 1rem;
+        }
+        footer {
+            clear: both;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>My Website</h1>
-        <h2>Welcome to Our Website</h2>
+        <h1>Mogo Mantra</h1> 
     </header>
+
+    <h2>Welcome to Our Website</h2>
+
+    <hr>
 
     <aside>
         <h3>Side Navbar</h3>
@@ -20,6 +74,7 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </aside>
+    <hr>
 
     <main>
         <section>
@@ -36,10 +91,12 @@
             </form>
         </section>
     </main>
+    <hr>
 
     <footer>
-        <p>© 2026 My Website. All Rights Reserved.</p>
+        <p>© 2026 Mogo Mantra. All Rights Reserved.</p>
     </footer>
+    <hr>
 
 </body>
 </html>
